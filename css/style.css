@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body {
+    font-family: "Caveat Brush", serif;
 }
