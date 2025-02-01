@@ -1,9 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: "Caveat Brush", serif;
+    font-family: "Poppins", serif;
+    background-color: antiquewhite;
+}
+header {
+    background: url('../images/banner3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 28px;
+}
+nav ul {
+    display: inline-flex;
+    gap: 20px;
+}
+nav ul li {
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
 }
